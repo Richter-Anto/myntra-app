@@ -1,0 +1,241 @@
+#navbarBlock {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+#navbarBlock article {
+  width: 90%;
+  height: 100px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.logoBlock {
+  flex-basis: 10%;
+}
+.menuBlock {
+  flex-basis: 60%;
+}
+.searchBlock {
+  flex-basis: 40%;
+}
+.authMenuBlock {
+  flex-basis: 10%;
+}
+
+.logoBlock a {
+  font-weight: 900;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  background: -webkit-linear-gradient(#ff5722, #e91e63ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menuBlock nav ul,
+.authMenuBlock ul {
+  list-style: none;
+  display: flex;
+}
+.menuBlock nav ul li {
+  position: relative;
+}
+.menuBlock nav ul li a,
+.authMenuBlock ul li a {
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 35px 18px;
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+}
+.authMenuBlock ul li a{
+  padding: 28px 18px;
+}
+.menuBlock nav ul li a sup {
+  color: deeppink;
+  font-size: 10px;
+  margin: 0 5px;
+  font-weight: bold;
+  position: absolute;
+  top: 22px;
+}
+.searchBlock main {
+  display: flex;
+  align-items: center;
+}
+.searchBlock main span:nth-child(2) {
+  width: 100%;
+  display: block;
+}
+.searchBlock main input {
+  width: 90%;
+  padding: 13px 40px;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+  background: #efefef;
+  text-transform: capitalize;
+}
+.searchBlock main span:nth-child(1) svg {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  color: #666;
+  font-weight: lighter;
+}
+.authMenuBlock ul li a {
+  font-size: 13 !important;
+  text-transform: capitalize !important;
+}
+.authMenuBlock ul {
+  text-align: center;
+}
+.authMenuBlock ul svg {
+  color: #777;
+  font-size: 13px;
+}
+.dropDown {
+  background: #444;
+  min-width: 1124px;
+  position: absolute;
+  top: 56px;
+  left: -11px;
+  min-height: 500px;
+  display: none;
+  /* padding: 0 5px; */
+  z-index: 10;
+}
+.dropDown aside {
+  display: flex;
+  align-items: stretch;
+  min-height: 500px;
+}
+.dropDown aside div {
+  flex: 1;
+}
+.dropDown aside div:nth-child(odd) {
+  background-color: #fff;
+}
+.dropDown aside div:nth-child(even) {
+  background-color: #efefef;
+}
+.dropDown aside div ul li a {
+  font-size: 12px;
+  font-weight: 400;
+  /* line-height: 1.75; */
+}
+.dropDown aside div ul li {
+  padding: 4px 0;
+}
+.dropDown aside div ul {
+  display: flex;
+  flex-direction: column;
+}
+.dropDown ul li a {
+  color: #888;
+  font-size: 13px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.dropDown ul li:first-child a {
+  color: #ee5f73;
+  font-size: 14px;
+  font-weight: bold;
+  /* padding-bottom: 4px; */
+  display: block;
+}
+.indian_wear {
+  color: #ee5f73;
+  padding: 9px 0;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #efefef;
+}
+.dropDown .men_heading {
+  color: #ee5f73;
+  padding: 9px 20px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 1px solid #efefef;
+}
+.menuBlock nav > ul > li:hover .dropDown {
+  display: block !important;
+}
+.menuBlock nav > ul > li > a:hover {
+  border-bottom: 3px solid deeppink;
+}
+.authMenuBlock > ul > li span > a:hover{
+  border-bottom: 3px solid deeppink;
+}
+.authMenuBlock ul li:last-child span:hover div {
+  display: block !important;
+}
+.profileDropDown {
+  background: #fff;
+  min-width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 1160px;
+  min-height: 440px;
+  display: none;
+  z-index: 10;
+}
+.authMenuBlock ul li:hover .profileDropDown {
+  display: block;
+}
+.profileDropDown button {
+  padding: 10px 20px;
+  color: #ee5f73;
+  font-weight: 600;
+  width: 70%;
+  border: 1px solid #eaeaec;
+  background-color: #fff;
+}
+.profileDropDown button Link {
+  color: #ee5f73;
+  fill: #ee5f73;
+}
+.ProfileMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 20px;
+  /* box-shadow: 0 0 1px 1px black; */
+}
+.ProfileMenu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+.ProfileMenu h4,
+p,
+button {
+  padding: 7px 0;
+}
+.ProfileMenu > ul > li {
+  padding: 7px 0;
+  color: #3e4152;
+}
+.ProfileMenu button {
+  border-bottom: 1px solid #eaeaec;
+}
+.ProfileMenu > ul {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaec;
+}
+.ProfileMenu ul li sup {
+  font-size: 10px;
+  background-color: #ff3f6c;
+  padding: 1px;
+  color: #fff;
+  font-style: italic;
+}

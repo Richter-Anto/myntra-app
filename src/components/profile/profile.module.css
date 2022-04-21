@@ -1,0 +1,20 @@
+#profileBlock{
+    width: 100%;
+}
+
+#profileBlock article{
+    width: 100%;
+    display: flex;
+}
+
+.sidebar{
+    flex-basis: 20%;
+    background: #fff;
+    height: 100vh;
+    padding: 10px;
+}
+
+.mainContent{
+    flex-basis: 80%;
+    padding: 10px;
+}
